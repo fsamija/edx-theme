@@ -39,22 +39,26 @@ from branding.api import get_footer
                         ## can be included in the footer on other sites
                         ## (e.g. a blog or marketing front-end) to provide a consistent
                         ## user experience. See the branding app for details.
-                        <img alt="organization logo" src="${footer['logo_image']}">
+                        <img alt="organization logo" src="${footer['logo_image']}" width="300px">
                     </a>
                 </p>
             </div>
 
             ## Site operators: Please do not remove this paragraph! This attributes back to edX and makes your
-            acknowledgement of edX's trademarks clear.
+            ## acknowledgement of edX's trademarks clear.
             <p class="copyright">${footer['copyright']}</p>
 
             <nav class="nav-legal" aria-label="${_('Legal')}">
                 <ul>
-                    % for item_num, link in enumerate(footer['legal_links'], start=1):
-                    <li class="nav-legal-0${item_num}">
-                        <a href="${link['url']}">${link['title']}</a>
+                    <li class="nav-legal-01">
+                        <a href="http://www.ethicon.com/healthcare-professionals/privacy-policy">Privacy Policy</a>
                     </li>
-                    % endfor
+                     <li class="nav-legal-03">
+                        <a href="http://www.ethicon.com/healthcare-professionals/legal-notice-terms-conditions">Terms and Conditions</a>
+                    </li>
+                     <li class="nav-legal-04">
+                        <a href="http://www.ethicon.com/healthcare-professionals/safe-harbor-policy">Safe Harbor Policy</a>
+                    </li>
                 </ul>
             </nav>
         </div>
