@@ -1,22 +1,5 @@
-// LMS - CSS application architecture
-// Version 1 styling (pre-Pattern Library)
-// ====================
+// Import our theme overrides
+@import 'overrides';
 
-// libs and resets *do not edit*
-@import 'bourbon/bourbon'; // lib - bourbon
-@import 'vendor/bi-app/bi-app-rtl'; // set the layout for right to left languages
-@import 'base/variables-rtl';
-
-// BASE  *default edX offerings*
-// ====================
-
-// base - utilities
-@import 'base/reset';
-@import 'base/variables';
-@import 'base/mixins';
-
-// This comment is used by preprocess_assets.py to include resources from a
-// theme, for old-style deprecated theming.
-//<THEME-OVERRIDE>
-
-@import 'build-lms-v1'; // shared app style assets/rendering
+// Import the core Sass file
+@import 'lms/static/sass/lms-main-v1-rtl';  
