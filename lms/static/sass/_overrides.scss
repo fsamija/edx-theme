@@ -4,7 +4,7 @@
 .header-global {
   h1.logo {
     img {
-      width: 201px;
+      width: 200px;
     }
     //background: red;
   }
@@ -19,6 +19,10 @@
 	background-image:url(/static/images/EE_Ethicon_OPENedX_LOCKUP_Final_5252016.jpg);
 	background-repeat: no-repeat;
     background-position-x: center;
-    background-position-y: 10px;
+    background-size: contain;
+}
+.home>header .title { 
+	
+	width: 56% !important;
 }
 /****************************** header ************************************/  
