@@ -16,7 +16,7 @@
 	background-color: #333333;
     background-repeat: no-repeat;
     background-size: contain;
-    background-position-x: center;
+    background-position: center, left;
 }
 .home>header .title:last-child {
 	
@@ -33,3 +33,13 @@
 
 }
 /****************************** header ************************************/ 
+
+/****************************** Course Background ************************************/ 
+.course-info header.course-profile{
+	
+	background-image:url(/static/themes/custom-theme/images/EithconRays_062416.png) !important;
+	background-color: white !important;
+	background-position: center, left;
+}
+/****************************** Course Background ************************************/ 
+
