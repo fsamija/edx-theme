@@ -46,3 +46,16 @@
 }
 /****************************** Course Background ************************************/ 
 
+/****************************** Registration ************************************/ 
+.login-register .form-field label, .financial-assistance-wrapper .financial-assistance-form .form-field label {
+    display: inline;
+    margin: 0 0 6px 0;
+}
+
+.login-register .form-field input.checkbox, .financial-assistance-wrapper .financial-assistance-form .form-field input.checkbox, .login-register .form-field select.checkbox, .financial-assistance-wrapper .financial-assistance-form .form-field select.checkbox, .login-register .form-field textarea.checkbox, .financial-assistance-wrapper .financial-assistance-form .form-field textarea.checkbox {
+    display: inline;
+    width: auto;
+    margin-right: 5px;
+    height: 13px;
+}
+/****************************** Registration ************************************/ 
