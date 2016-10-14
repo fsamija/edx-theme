@@ -59,3 +59,11 @@
     height: 13px;
 }
 /****************************** Registration ************************************/ 
+
+/****************************** Dumb fixes ************************************/ 
+.header-global.slim .wrapper-header .list-inline.nav-global {
+    display: none;
+}
+.wrapper-user-menu.dropdown-menu-container.logged-in.js-header-user-menu > div {
+    display: inline;
+}
