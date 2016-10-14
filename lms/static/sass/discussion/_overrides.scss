@@ -1,0 +1,69 @@
+/****************************** header ************************************/
+
+// header logo width
+.header-global {
+  h1.logo {
+    img {
+      width: 200px;
+    }
+    //background: red;
+  }
+}
+.home>header {
+	
+	background-image:url(/static/custom-theme/images/EthiconFinalHeroImage.png) !important;
+	//background-size: 100% 100%!important;
+	background-color: #333333;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left, center;
+}
+.home>header .title:last-child {
+	
+	background-image:url(/static/images/EE_Ethicon_OPENedX_LOCKUP_Final_5252016.png);
+	background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: contain;
+
+}
+.home>header .title { 
+	
+	width: 55% !important;
+	margin-left: 22.5% !important;
+
+}
+/****************************** header ************************************/ 
+
+/****************************** Course Background ************************************/ 
+.course-info header.course-profile{
+	
+	background-image:url(/static/custom-theme/images/EithconRays_062416.png) !important;
+	background-color: white !important;
+	background-position: left, center;
+	padding-top: 75px !important;
+	padding-bottom: 75px !important;
+
+}
+/****************************** Course Background ************************************/ 
+
+/****************************** Registration ************************************/ 
+.login-register .form-field label, .financial-assistance-wrapper .financial-assistance-form .form-field label {
+    display: inline !important;
+    margin: 0 0 6px 0;
+}
+
+.login-register .form-field input.checkbox, .financial-assistance-wrapper .financial-assistance-form .form-field input.checkbox, .login-register .form-field select.checkbox, .financial-assistance-wrapper .financial-assistance-form .form-field select.checkbox, .login-register .form-field textarea.checkbox, .financial-assistance-wrapper .financial-assistance-form .form-field textarea.checkbox {
+    display: inline;
+    width: auto;
+    margin-right: 5px;
+    height: 13px;
+}
+/****************************** Registration ************************************/ 
+
+/****************************** Dumb fixes ************************************/ 
+.header-global.slim .wrapper-header .list-inline.nav-global {
+    display: none;
+}
+.wrapper-user-menu.dropdown-menu-container.logged-in.js-header-user-menu > div {
+    display: inline;
+}
