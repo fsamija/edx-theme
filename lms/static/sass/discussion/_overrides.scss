@@ -60,10 +60,29 @@
 }
 /****************************** Registration ************************************/ 
 
-/****************************** Dumb fixes ************************************/ 
+/****************************** Discussion fixes ************************************/ 
 .header-global.slim .wrapper-header .list-inline.nav-global {
     display: none;
 }
 .wrapper-user-menu.dropdown-menu-container.logged-in.js-header-user-menu > div {
     display: inline;
+}
+.wrapper-footer footer#footer-openedx .colophon .nav-colophon {
+    margin: 5px 0 30px -40px;
+}
+
+.wrapper-footer footer#footer-openedx .copyright {
+
+    color: #767676 !important;
+}
+
+.wrapper-footer footer#footer-openedx .nav-legal {
+    margin-left: -40px;
+}
+.wrapper-footer {
+    padding-right: 2%;
+    padding-left: 2%;
+}
+.wrapper-footer footer#footer-openedx .wrapper-logo {
+    margin: 0px !important;
 }
